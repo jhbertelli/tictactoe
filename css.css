@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(182, 158, 144);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+}
+h1 {
+    margin-top: 8vh;
+    font-size: 28pt;
+}
+h2 {
+    margin-top: 10px;
+    font-size: 10pt;
+    font-weight: 500;
+}
+h3 {
+    font-size: 12pt;
+    margin-top: 30px;
+}
+button {
+    background-color: transparent;
+    border: solid black 2px;
+    font-weight: 600;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#table {
+    margin-top: 40px;
+    width: 650px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 31% 31% 31%;
+}
+#table div {
+    height: 200px;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cell_0 {
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
+}
+#cell_1 {
+    border-bottom: black solid 4px;
+}
+#cell_2 {
+    border-left: black solid 4px;
+    border-bottom: black solid 4px;
+}
+#cell_3 {
+    border-right: black solid 4px;
+}
+#cell_5 {
+    border-left: black solid 4px;
+}
+#cell_6 {
+    border-right: black solid 4px;
+    border-top: black solid 4px;
+}
+#cell_7 {
+    border-top: black solid 4px;
+}
+#cell_8 {
+    border-left: black solid 4px;
+    border-top: black solid 4px;
+}
